@@ -31,7 +31,7 @@ body {
 
 
 label {
-    color: #fff;
+    color: #ffffff;
     font-size: 2.3em;
     justify-content: center;
     transition: .5s ease-in-out;
@@ -39,6 +39,10 @@ label {
     display: flex;
     font-weight: bold;
     cursor: pointer;
+}
+
+#login-label {
+    color: #4A55A2;
 }
 
 input {
@@ -65,14 +69,40 @@ button {
     border: none;
     border-radius: 5px;
     display: block;
-    color: #fff;
-    background: #292a69;
+    color: #ffffff;
+    background: #7895CB;
     font-size: 1em;
     font-weight: bold;
-    transition: 2s ease-in;
+    transition: 0.5s ease-in;
     cursor: pointer;
 }
 
 button:hover {
-    background: #6d44b8;
+    background: #4A55A2;
+}
+
+.login {
+    height: 460px;
+    background: #eeeeee;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+
+
+.login label {
+    color: #292a69;
+    transform: scale(.6);
+}
+
+#check-box:checked~.login {
+    transform: translateY(-500px);
+}
+
+#check-box:checked .login label {
+    transform: scale(1);
+}
+
+#check-box:checked~.signup label {
+    transform: scale(.6);
 }
