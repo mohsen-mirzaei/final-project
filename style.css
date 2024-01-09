@@ -41,3 +41,38 @@ label {
     cursor: pointer;
 }
 
+input {
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 60%;
+    height: 20px;
+}
+
+
+button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    background: #292a69;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 2s ease-in;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #6d44b8;
+}
